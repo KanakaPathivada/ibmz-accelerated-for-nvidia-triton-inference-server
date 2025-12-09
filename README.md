@@ -1547,7 +1547,8 @@ model. The default is the higher version of a model.
 5. Deploying Hugging Face models using zero-filled warmup data, zero-filled
    performance analyzer inputs, or zero-filled inference inputs with sequence
    lengths ≥ 64 results in NaN outputs when running on the ONNXMLIR backend or
-   the PyTorch backend with NNPA hardware optimization.
+   the PyTorch backend with NNPA hardware optimization. For more details, see
+   [link](https://github.com/onnx/onnx-mlir/issues/3347)
        
 
 # Versions and Release cadence <a id="versioning"></a>
